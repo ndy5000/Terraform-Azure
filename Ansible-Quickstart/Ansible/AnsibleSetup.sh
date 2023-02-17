@@ -10,6 +10,9 @@ sudo apt-get install python3-pip -y
 # Upgrade pip3.
 sudo pip3 install --upgrade pip
 
+# Install Ansible 
+sudo pip3 install 'ansible[azure]'
+
 # Install Ansible az collection for interacting with Azure.
 ansible-galaxy collection install azure.azcollection
 
